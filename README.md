@@ -18,3 +18,5 @@ pip install -r requirements.txt
 echo 'RATBOT_TOKEN="<your bot token>"' > .env 
 python .
 ```
+
+you may also wish to disable pylance in your .vscode/settings.json; I use mypy for type-checking

@@ -2,3 +2,6 @@
 line-length = 90
 target-version = ["py311"]
 skip-magic-trailing-comma = true
+
+[tool.mypy]
+allow_redefinition = true
